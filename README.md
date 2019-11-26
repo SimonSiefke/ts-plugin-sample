@@ -1,9 +1,17 @@
 # Ts Plugin Sample
 
+## Quickstart 🚀
+
+```sh
+git clone https://github.com/SimonSiefke/sample-ts-plugin &&
+cd sample-ts-plugin &&
+npm ci &&
+npx tsc -b
+```
+
 ## Usage
 
-The plugin removes all completions that contain the word `callee`.
-Run `tsc -b` to generate `plugin.js`. Then reload vscode and open `sample.ts`.
+Run `npx tsc -b` to generate `plugin.js`. Then reload vscode and open `sample.ts`.
 
 Before:
 
