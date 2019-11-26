@@ -3,8 +3,8 @@
 ## Quickstart 🚀
 
 ```sh
-git clone https://github.com/SimonSiefke/sample-ts-plugin &&
-cd sample-ts-plugin &&
+git clone https://github.com/SimonSiefke/ts-plugin-sample &&
+cd ts-plugin-sample &&
 npm ci &&
 npx tsc -b
 ```
