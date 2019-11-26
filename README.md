@@ -11,7 +11,7 @@ npx tsc -b
 
 ## Usage
 
-Run `npx tsc -b` to generate `plugin.js`. Then reload vscode and open `sample.ts`.
+Run `npx tsc -b` to generate `plugin.js`. Open the vscode command pallette and configure typescript to use the workspace typescript version `typescript: select typescript version -> Use workspace version`. Then reload vscode and open `sample.ts`.
 
 Before:
 
