@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "strict": false,
+    "module": "commonjs",
+    "plugins": [
+      {
+        "name": "../../plugin"
+      }
+    ]
+  },
+  "include": ["plugin.ts"]
+}
