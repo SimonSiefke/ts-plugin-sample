@@ -11,3 +11,7 @@ Before:
 
 After:
 ![](./images/after.png)
+
+## Credits
+
+The sample is based on the ts plugin sample inside the [typescript wiki](https://github.com/microsoft/TypeScript/wiki/Writing-a-Language-Service-Plugin).
