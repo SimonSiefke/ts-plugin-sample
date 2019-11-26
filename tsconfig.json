@@ -2,11 +2,12 @@
   "compilerOptions": {
     "strict": false,
     "module": "commonjs",
+    "lib": ["esnext", "dom"],
     "plugins": [
       {
         "name": "../../plugin"
       }
     ]
   },
-  "include": ["plugin.ts"]
+  "include": ["plugin.ts", "sample.ts"]
 }

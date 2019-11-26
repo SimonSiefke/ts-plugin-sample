@@ -1,3 +1,3 @@
 function add(a, b) {
-  console.log(arguments.)
+  console.log(arguments.callee);
 }
