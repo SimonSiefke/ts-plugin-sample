@@ -7,8 +7,8 @@ type TsPlugin = (modules: {
 const init: TsPlugin = () => ({
   create: info => {
     // Get a list of things to remove from the completion list from the config object.
-    // If nothing was specified, we'll just remove 'caller'
-    const whatToRemove: string[] = info.config.remove || ["caller"];
+    // If nothing was specified, we'll just remove 'callee'
+    const whatToRemove: string[] = info.config.remove || ["callee"];
 
     // Diagnostic logging
     info.project.projectService.logger.info(
